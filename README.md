@@ -5,7 +5,7 @@
 # MVC-Express
 
 - Version : **[1.0.0]**
-- Auteur: **[Prénom NOM]**
+- Auteur: **[Thibaud CLAIRET]**
 
 ## Description des fonctionnalités
 
@@ -65,3 +65,7 @@ Ce projet nécessite un environnement compatible avec les spécifications suivan
 - Taper la commande "npm install" pour l'installer
 - Taper la commande "npm start" pour lancer l'application
 - L'application sera accessible à l'adresse suivante : `http://localhost/`
+
+**Cas d'erreur :** 
+- Port 80 déjà utilisé 
+- Erreur 404 si l'URL n'est pas valide (ex: http://localhost/hello/ sans nom)
