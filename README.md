@@ -2,32 +2,32 @@
 
 ---
 
-# [Nom du Projet]
+# [myExpressApp]
 
 - Version : **[1.0.0]**
-- Auteur: **[Prénom NOM]**
+- Auteur: **[MDEVOLDERE]**
 
 ## Description des fonctionnalités
 
-[Nom du Projet] est une application... [Décrivez en quelques lignes l'application].
+[myExpress] est une application... [Décrivez en quelques lignes l'application].
 
 ### Fonctionnalités principales
 
-- Nom de la Fonctionnalité 1 : Description de la fonctionnalité.
+- Accueil : Affiche "Accueil".
 
-- Nom de la Fonctionnalité 2 : Description de la fonctionnalité.
+- À propos : Affiche "À propos".
 
-- Nom de la Fonctionnalité 3 : Description de la fonctionnalité.
+- Hello : Affiche "Hello : name(nom choisie)".
 
-- Nom de la Fonctionnalité 4 : Description de la fonctionnalité.
+- Error : Gère les erreur et affche "404: Not Found!".
 
 - [ Ajouter d'autres éléments si nécessaires ]
 
 ## Stack Technique
 
-* **Frontend :** 
-* **Backend :** 
-* **Frameworks :** 
+* **Frontend : CSS3 
+* **Backend : JS13 
+* **Frameworks : node 12
 * **Base de données :** 
 
 ## Environnement d'exécution
