@@ -34,7 +34,7 @@
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
 
-[ Ajouter les spécifiacations ]
+[ Ajouter les spécifications ]
 
 
 ## Installation & Démarrage
