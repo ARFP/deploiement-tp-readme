@@ -35,16 +35,16 @@ Elle écoute sur le port 80.
 ## Stack Technique
 
 * **Frontend :** CSS
-* **Backend :** Node.js
-* **Frameworks :** Express.js
+* **Backend :** Node.js Version 18.x
+* **Frameworks :** Express.js Version 4.0
 * **Base de données :**
 
 ## Environnement d'exécution
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
 
-- **Node.js** 
-- **Express.js**: Version 4.17
+- **Node.js**  Version 18.x ou supérieure
+- **Express.js**: Version 4.0 ou supérieure
 - **Port** : Port 80 
 
 
