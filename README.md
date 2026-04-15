@@ -2,37 +2,38 @@
 
 ---
 
-# [Nom du Projet]
+# mvc-express
 
-- Version : **[1.0.0]**
-- Auteur: **[Prénom NOM]**
+- Version : **1.0.0**
+- Auteur: **MDevoldere**
 
 ## Description des fonctionnalités
 
-[Nom du Projet] est une application... [Décrivez en quelques lignes l'application].
+Mvc-express est une application web basée sur l'architecture spaghti utilisant Express.
 
 ### Fonctionnalités principales
 
-- Nom de la Fonctionnalité 1 : Description de la fonctionnalité.
+- Gestion des fichiers statique : Affichage de la page accueil, a propos
 
-- Nom de la Fonctionnalité 2 : Description de la fonctionnalité.
+- Gestion des routes : afficher les différentes pages du site (Accueil, À propos) et personnaliser les réponses selon l'utilisateur
 
-- Nom de la Fonctionnalité 3 : Description de la fonctionnalité.
+- Gestion des erreurs : Si un utilisateur essaie d'aller sur une page qui n'existe pas, ça affiche un message erreur.
 
-- Nom de la Fonctionnalité 4 : Description de la fonctionnalité.
+- Gestion des logs :
 
-- [ Ajouter d'autres éléments si nécessaires ]
 
 ## Stack Technique
 
-* **Frontend :** 
-* **Backend :** 
+* **Frontend : html, css** 
+* **Backend : node.js, Express** 
 * **Frameworks :** 
 * **Base de données :** 
 
 ## Environnement d'exécution
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
+
+- 
 
 [ Ajouter les spécifiacations ]
 
@@ -46,3 +47,11 @@ Expliquer comment exécuter et accéder à l'application avec Docker. Le Dockerf
 ### Option 2 : Installation manuelle (Alternative sans Docker)
 
 Expliquer comment exécuter et accéder à l'application sans Docker.
+
+- Aller dans le **dossier myExpressApp**
+- Ouvrir le terminal intégrer. <br>
+- Dans le terminal :
+    - ``Npm install``
+    - ça va install les dépendances.
+    - ``Npm start``
+
