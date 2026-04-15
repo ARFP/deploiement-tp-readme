@@ -2,47 +2,67 @@
 
 ---
 
-# [Nom du Projet]
+# mvc-express
 
-- Version : **[1.0.0]**
-- Auteur: **[Prénom NOM]**
+- Version : **1.0.0**
+- Auteur: **MDevoldere**
 
 ## Description des fonctionnalités
 
-[Nom du Projet] est une application... [Décrivez en quelques lignes l'application].
+mvc-express est une application qui permet d'afficher du texte (1 mot ?).
 
 ### Fonctionnalités principales
 
-- Nom de la Fonctionnalité 1 : Description de la fonctionnalité.
+- gestion des fichiers statiques
 
-- Nom de la Fonctionnalité 2 : Description de la fonctionnalité.
+- différentes adresses (URLs) valides sur l'application :
+    * page d'accueuil 
+    * page "à propos"
+    * page avec affichage du nom de votre choix 
 
-- Nom de la Fonctionnalité 3 : Description de la fonctionnalité.
+- enregistrement des visites des pages 
 
-- Nom de la Fonctionnalité 4 : Description de la fonctionnalité.
-
-- [ Ajouter d'autres éléments si nécessaires ]
 
 ## Stack Technique
 
-* **Frontend :** 
-* **Backend :** 
-* **Frameworks :** 
+* **Frontend : CSS** 
+* **Backend : Node.js (v16 lts)** 
+* **Frameworks : Express (v4.17.3)** 
 * **Base de données :** 
 
 ## Environnement d'exécution
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
 
-[ Ajouter les spécifiacations ]
+* Node.js 
+* port 80 disponible
+* npm (Node Pacckage Manager)
 
 
 ## Installation & Démarrage
 
 ### Option 1 : Via Docker (Recommandé)
 
-Expliquer comment exécuter et accéder à l'application avec Docker. Le Dockerfile doit être livré avec le README.
+* Cloner le dépôt GitHub `ARFP/deploiement-tp-readme`
+
+Le fichier Dockerfile est fourni dans le dossier myExpressApp.
+Tapez les commandes suivantes : 
+
+* `docker build -t mvc-express .`
+* `docker run -p80:80 mvc-express`
 
 ### Option 2 : Installation manuelle (Alternative sans Docker)
 
-Expliquer comment exécuter et accéder à l'application sans Docker.
+* Cloner le dépôt GitHub `ARFP/deploiement-tp-readme`
+* Ouvrir un terminal 
+* Se placer dans le dossier myExpressApp
+* Installer les dépendance nécessaires en saisissant `npm instal`
+* Démarrer le serveur `nmp start`
+
+Le serveur démarrera sur le port 80
+
+
+## Cas d'erreurs 
+
+L'application ne fonctionnera pas si le port 80 est déjà utilisé.
+
