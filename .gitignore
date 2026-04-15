@@ -1,0 +1,8 @@
+myExpressApp/node_modules
+myExpressApp/.env
+myExpressApp/package-lock.json
+myExpressApp/.vscode
+# Logs
+logs*.log
+logs/*.log
+logs/**/*.log
