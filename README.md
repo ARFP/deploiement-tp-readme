@@ -27,21 +27,32 @@
 
 * **Frontend : CSS3 
 * **Backend : JS13 
-* **Frameworks : node 12
+* **Frameworks : node.js 25
 * **Base de données :** 
 
 ## Environnement d'exécution
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
 
-[ Ajouter les spécifiacations ]
+Node.js
+NPM
+Docker
 
 
 ## Installation & Démarrage
 
 ### Option 1 : Via Docker (Recommandé)
 
-Expliquer comment exécuter et accéder à l'application avec Docker. Le Dockerfile doit être livré avec le README.
+**Cloner le dépôt
+**Construire l'image Docker
+```bash
+   docker build -t mvc-express .
+
+**Lancer le conteneur :
+docker run -d -p 3000:3000 --name mvc-express-container mvc-express
+
+**Vérifier que le conteneur est en cour d'exécution :
+docker ps
 
 ### Option 2 : Installation manuelle (Alternative sans Docker)
 

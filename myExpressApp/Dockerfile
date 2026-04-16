@@ -1,28 +1,21 @@
-# Image de base : Apache avec PHP 8.4
-FROM php:8.4-apache
+# Image de base : Alpine avec node 12
+FROM node:25-alpine
 
-# Nécessaire au bon fonctionnement de Composer
-ENV COMPOSER_ALLOW_SUPERUSER=1
+# Définit le répertoire de travail dans le conteneur
+WORKDIR /app
 
-# Port d'écoute
-EXPOSE 80
+# Copie les fichiers package.json et package-lock.json (si présent)
+COPY package*.json ./
 
-# Répertoire de travail pour le script courant
-WORKDIR /var/www/html
+# Installe les dépendances
+RUN npm install
 
-# Installation de git, unzip & zip et composer
-RUN apt-get update -qq && apt-get install -qy \
-    git \
-    gnupg \
-    zip \   
-    unzip && \
-    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# Copie le reste des fichiers de l'application
+COPY . .
 
-# Installation d'extensions PHP
-RUN docker-php-ext-install pdo_mysql opcache
+# Expose le port sur lequel l'application écoute
+EXPOSE 3000
 
-COPY ./conf/000-default.conf /etc/apache2/sites-available/000-default.conf
+# Commande pour démarrer l'application
+CMD ["npm", "start"]
 
-# Activation de modules Apache
-RUN a2enmod rewrite
