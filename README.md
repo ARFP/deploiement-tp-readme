@@ -49,7 +49,6 @@ Dans la console :
 - package name: indiquez le nom du fichier (exemple: app.js)
 - version: 1.0.0
 - description:
-- npm install express
 
 ## Cas d'erreur
 
