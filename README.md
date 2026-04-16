@@ -36,7 +36,7 @@ Elle écoute sur le port 80.
 
 * **Frontend :** CSS
 * **Backend :** Node.js Version 18.x
-* **Frameworks :** Express.js Version 4.0
+* **Frameworks :** Express.js Version 4.17.3
 * **Base de données :**
 
 ## Environnement d'exécution
