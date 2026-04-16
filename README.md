@@ -5,44 +5,52 @@
 # [Nom du Projet]
 
 - Version : **[1.0.0]**
-- Auteur: **[Prénom NOM]**
+- Auteur: **[Christopher Ares]**
 
 ## Description des fonctionnalités
 
-[Nom du Projet] est une application... [Décrivez en quelques lignes l'application].
+myExpressApp est une app qui permet de définir des chemins vers différentes pages du site web.
 
 ### Fonctionnalités principales
 
-- Nom de la Fonctionnalité 1 : Description de la fonctionnalité.
+- Chemin vers accueil : /accueil
 
-- Nom de la Fonctionnalité 2 : Description de la fonctionnalité.
+- Chemin vers a propos : /about
 
-- Nom de la Fonctionnalité 3 : Description de la fonctionnalité.
+- Chemin vers hello: /hello/:name
 
-- Nom de la Fonctionnalité 4 : Description de la fonctionnalité.
-
-- [ Ajouter d'autres éléments si nécessaires ]
+- Chemin vers error404: Si aucun chemin ne correspond
 
 ## Stack Technique
 
-* **Frontend :** 
-* **Backend :** 
-* **Frameworks :** 
-* **Base de données :** 
+* **Frontend :*CSS 5* 
+* **Backend :*nodejs 20* 
+* **Frameworks :*express* 
+* **Base de données :*Aucune* 
 
 ## Environnement d'exécution
 
 Ce projet nécessite un environnement compatible avec les spécifications suivantes :
 
-[ Ajouter les spécifiacations ]
-
+- Docker
 
 ## Installation & Démarrage
 
 ### Option 1 : Via Docker (Recommandé)
 
-Expliquer comment exécuter et accéder à l'application avec Docker. Le Dockerfile doit être livré avec le README.
+Tapez dans la console :
+- docker build -t nomduconteneur .
+- docker run -d -p 3000:80 nomduconteneur
 
 ### Option 2 : Installation manuelle (Alternative sans Docker)
 
-Expliquer comment exécuter et accéder à l'application sans Docker.
+Dans la console :
+- npm init
+- package name: indiquez le nom du fichier (exemple: app.js)
+- version: 1.0.0
+- description:
+- npm install express
+
+## Cas d'erreur
+
+Il se peut que votre Docker fasse déjà tourner un conteneur sur le même port, dans ce cas vous aurez une érreur.
