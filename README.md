@@ -5,7 +5,7 @@
 # [myExpressApp]
 
 - Version : 1.0.0
-- Auteur: Bruno GODBILLOT
+- Auteur: MDEVOLDERE
 
 ## Description des fonctionnalités
 
