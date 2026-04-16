@@ -4,12 +4,12 @@
 
 # [myExpressApp]
 
-- Version : **[1.0.0]**
-- Auteur: **[MDEVOLDERE]**
+- Version : 1.0.0
+- Auteur: Bruno GODBILLOT
 
 ## Description des fonctionnalités
 
-[myExpress] est une application... [Décrivez en quelques lignes l'application].
+[myExpress] est une application qui affiche "Accueil" ou "À propos" ou Hello avec le nom choisie.
 
 ### Fonctionnalités principales
 
@@ -27,7 +27,7 @@
 
 * **Frontend : CSS3 
 * **Backend : JS13 
-* **Frameworks : node.js 25
+* **Frameworks : node.js 25, Express 4.17.3
 * **Base de données :** 
 
 ## Environnement d'exécution
