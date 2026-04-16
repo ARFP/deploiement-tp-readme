@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose le port sur lequel l'application écoute
-EXPOSE 3000
+EXPOSE 80
 
 # Commande pour démarrer l'application
 CMD ["npm", "start"]
